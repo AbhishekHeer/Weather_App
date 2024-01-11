@@ -1,0 +1,16 @@
+{
+    "icon": [
+        {
+            "first": "Assets/images/wind.png"
+        },
+        {
+            "first": "Assets/images/rain.png"
+        },
+        {
+            "first": "Assets/images/pressure.png"
+        },
+        {
+            "first": "Assets/images/uv.png"
+        }
+    ]
+}
