@@ -37,10 +37,10 @@ class _SplashScreenState extends State<SplashScreen> {
             Padding(
               padding: EdgeInsets.only(bottom: Get.height * .05),
               child: Text(
-                'Version : 2.0.0+1',
+                'Version : 2.0.0',
                 style: GoogleFonts.poppins(
                     letterSpacing: Get.width * .003,
-                    fontSize: Get.width * .05,
+                    fontSize: Get.width * .03,
                     fontWeight: FontWeight.w300),
               ),
             )

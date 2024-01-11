@@ -64,7 +64,7 @@ class _StateorCityState extends State<StateorCity> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top: Get.height * .1),
+              padding: EdgeInsets.only(top: Get.height * .015),
               child: button('Enter', () {
                 if (userlocation.text.isNotEmpty) {
                   Navigator.push(
@@ -77,7 +77,6 @@ class _StateorCityState extends State<StateorCity> {
                                   .toString(),
                             )),
                   );
-                  Get.snackbar('Welcome', 'You choose ${userlocation.text}');
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                       duration: Duration(seconds: 2),
